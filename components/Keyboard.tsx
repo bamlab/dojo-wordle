@@ -1,5 +1,5 @@
 import React from "react";
-import { TouchableOpacity, View, StyleSheet, Text } from "react-native";
+import { TouchableOpacity, View, StyleSheet, Text, ViewStyle } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 const KEY_HEIGHT = 55;
@@ -87,7 +87,7 @@ const style = StyleSheet.create({
   },
 });
 
-const letterStyle = (key: string) => {
+const letterStyle = (key: string): ViewStyle => {
   return {
     width: `${getKeyWidthFactor(key) * 10}%`,
     height: KEY_HEIGHT,
