@@ -56,8 +56,8 @@ export function Keyboard({
                   onPress={() => pressKey(key)}
                   activeOpacity={0.7}
                 >
-                  <View style={style.letter}>
-                    <Text>{key.toLocaleUpperCase()}</Text>
+                  <View style={style.letterContainer}>
+                    <Text style={style.letter}>{key.toLocaleUpperCase()}</Text>
                   </View>
                 </TouchableOpacity>
               </View>
@@ -77,14 +77,18 @@ const style = StyleSheet.create({
     flexDirection: "row",
   },
 
-  letter: {
+  letterContainer: {
     borderRadius: 4,
-    backgroundColor: "#C0C0C0",
+    backgroundColor: "#636363",
     height: "100%",
     width: "100%",
     alignItems: "center",
     justifyContent: "center",
   },
+  letter: {
+    color: "white",
+    fontWeight: "bold",
+  }
 });
 
 const letterStyle = (key: string): ViewStyle => {
