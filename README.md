@@ -13,7 +13,6 @@
 Pour installer les dépendances et lancer l'application, exécutez les commandes suivantes dans votre terminal
 
 ```
-cd dojoWordle
 yarn
 yarn start
 ```
