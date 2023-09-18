@@ -27,7 +27,7 @@ interface Props {
   onDelPress?: () => void;
 }
 
-export function WordleKeyboard({
+export function Keyboard({
   onKeyPress,
   onEnterPress,
   onDelPress,
