@@ -8,6 +8,10 @@
 
 [Lien vers l'application web](https://wordle.louan.me/)
 
+## Trello
+
+Aujourd'hui, cette application ne fait quasiment rien! Tu trouveras sur [ce board Trello](https://trello.com/b/15LBHKaI/dojo-wordle-2022) la liste des User Stories pour implémenter le jeu wordle.
+
 ## Setup de l'application
 
 Pour installer les dépendances et lancer l'application, exécutez les commandes suivantes dans votre terminal
